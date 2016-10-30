@@ -1,4 +1,4 @@
-#include "first.h"
+#include "second.h"
 
 void print(Node* tmp,char* word, int pc, FILE* op, int len);
 void prefSearch(Node* tmp);
