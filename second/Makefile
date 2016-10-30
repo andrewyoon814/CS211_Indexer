@@ -1,6 +1,6 @@
-all : first
+all : second
 
-first : first.c
-	gcc -Wall -Werror -o first first.c
+first : second.c
+	gcc -Wall -Werror -o second second.c
 clean: 
-	rm -f first
+	rm -f second
